@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        nodejs 'NodeJS-24' // Replace with your configured tool name
-    }
-
     stages {
 
         stage('Checkout') {
